@@ -16,6 +16,7 @@ each access gets a different chunk of the products tabel.
 
 For simplicity I have decided to chain two Map-Reduce jobs, using temporary HDFS
 files to communicate results between the two processes
+
 --------------------------
 Map-Reduce Job 1
 The first Map-Reduce job includes two types of Mappers (one for reading product 
@@ -46,6 +47,7 @@ the combiner class associated with the Map-Reduce process. The Reducer writes
 to file a string cotaining the userID, product category, quantity, and quarterly
 revenue. Note that at this level the data is not aggregated at category level,
 the category representing just a replacement for the product id
+
 --------------------------
 Map-Reduce Job 2
 I would have liked to chain a second Reducer directly to the input of the 
