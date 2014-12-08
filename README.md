@@ -66,6 +66,7 @@ most popular category as well as total quarterly revenues for that category with
 very insignificant memory use. In order to account for two categories having the
 same popularity, we allow more than one category to be expressed in the final
 result. The reducers then dumps the results to a file.
+
 -------------------------
 As I considered the aggregation of the result file to be a trivial task (a 
 simple Map Task emitting for each userid the rest of the values, and a single 
