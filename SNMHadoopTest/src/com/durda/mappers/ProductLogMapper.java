@@ -64,7 +64,7 @@ public class ProductLogMapper extends
 			int userId = Integer.parseInt(elems[3]);
 			int quantity = Integer.parseInt(elems[5]);
 
-			String quarter = "q2";//getQuarter(cal);
+			String quarter = getQuarter(cal);
 
 			psK.set(prodId, userId);
 			psV.set(quarter, quantity);
