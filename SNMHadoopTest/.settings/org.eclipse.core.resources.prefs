@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+encoding//src/com/durda/mappers/ProductLogMapper.java=UTF-8
+encoding//src/com/durda/mappers/UserCatMapper.java=UTF-8
+encoding//src/com/durda/reducers/ProductSmartReducer.java=UTF-8
+encoding//src/com/durda/writables/ProductDBWritable.java=UTF-8
